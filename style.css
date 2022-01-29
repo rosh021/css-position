@@ -1,0 +1,33 @@
+.wrapper {
+  font-size: 1.5rem;
+  background: orange;
+  min-height: 100vh;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.child1 {
+  background: tomato;
+  /* position: absolute;
+  bottom: 20px;
+  right: 20px; */
+}
+.child2 {
+  background: green;
+  position: sticky;
+  top: 50px;
+}
+
+.child3 {
+  background: yellow;
+  position: fixed;
+  /* position: sticky; */
+  /* top: 20px;
+  left: 50px; */
+  /* top: 50px; */
+}
+
+.wrapper > div {
+  height: 150px;
+}
